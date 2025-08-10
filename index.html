@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deli Delux | Custom Sandwiches & Catering</title>
+  <meta name="description" content="Build your own perfect sandwich at Deli Delux in Uptown Houston. Fresh ingredients, fast pickup, delivery and catering." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Deli Delux</div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" id="orderTop" href="https://deli-delux.square.site" target="_blank" rel="noopener">Order Online</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" style="--hero:url('images/hero.png')">
+      <div class="hero-inner">
+        <h1 id="heroTitle">Build Your Own Sandwich</h1>
+        <p id="heroTag">Fresh ingredients, ready in 10 minutes.</p>
+        <a class="cta" id="heroCta" href="https://deli-delux.square.site" target="_blank" rel="noopener">Order Online</a>
+      </div>
+    </section>
+
+    <!-- Feature panels -->
+    <section class="features">
+      <article class="card" data-panel-index="0">
+        <img id="panel0Img" src="images/hero.png" alt="Featured item">
+        <h3 class="card-title" id="panel0Title">Bacon Chicken Wrap</h3>
+        <p class="card-text" id="panel0Text">Our best seller: tender chicken, crispy bacon, fresh greens.</p>
+        <a class="card-cta" id="panel0Cta" href="https://deli-delux.square.site" target="_blank" rel="noopener">Order Now</a>
+      </article>
+
+      <article class="card" data-panel-index="1">
+        <img id="panel1Img" src="images/catering.png" alt="Catering">
+        <h3 class="card-title" id="panel1Title">Catering & Events</h3>
+        <p class="card-text" id="panel1Text">Platters, salads and sandwich trays for any size group.</p>
+        <a class="card-cta" id="panel1Cta" href="#contact">Get a Quote</a>
+      </article>
+
+      <article class="card" data-panel-index="2">
+        <img id="panel2Img" src="images/hero.png" alt="Who we are">
+        <h3 class="card-title" id="panel2Title">Who We Are</h3>
+        <p class="card-text" id="panel2Text">A family‑owned deli committed to quality and service.</p>
+        <a class="card-cta" id="panel2Cta" href="#about">Learn More</a>
+      </article>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+      <h2>Menu</h2>
+      <div class="tabs">
+        <button class="tab active" data-cat="Sandwiches">Sandwiches</button>
+        <button class="tab" data-cat="Wraps">Wraps</button>
+        <button class="tab" data-cat="Salads">Salads</button>
+        <button class="tab" data-cat="Paninis">Paninis</button>
+        <button class="tab" data-cat="Breakfast">Breakfast</button>
+      </div>
+      <ul id="menuList" class="menu-list"></ul>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p id="aboutText">Deli Delux is your neighborhood deli crafting made‑to‑order sandwiches, wraps and salads using the freshest ingredients. We serve Uptown Houston with quick service and warm hospitality.</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p><strong>Address:</strong> <span id="addr">4550 Post Oak Place Dr, Ste 144, Houston, TX 77027</span></p>
+      <p><strong>Hours:</strong> <span id="hours">Mon–Fri 8am–3pm</span></p>
+      <p><strong>Email:</strong> <a id="email" href="mailto:info@deli-delux.com">info@deli-delux.com</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 Deli Delux</footer>
+</body>
+</html>

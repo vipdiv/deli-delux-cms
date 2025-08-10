@@ -1,0 +1,82 @@
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+      - file: "content/site.json"
+        label: "Website Content"
+        name: "sitejson"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Tagline", name: "tagline", widget: "string"}
+              - {label: "CTA Text", name: "cta_text", widget: "string", default: "Order Online"}
+              - {label: "CTA Link", name: "cta_link", widget: "string", default: "https://deli-delux.square.site"}
+              - {label: "Background Image", name: "image", widget: "image", default: "images/hero.png"}
+          - label: "Panels"
+            name: "panels"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
+              - {label: "CTA Text", name: "cta_text", widget: "string", required: false}
+              - {label: "CTA Link", name: "cta_link", widget: "string", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+          - label: "Menu"
+            name: "menu"
+            widget: "object"
+            fields:
+              - label: "Sandwiches"
+                name: "Sandwiches"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Price", name: "price", widget: "string"}
+              - label: "Wraps"
+                name: "Wraps"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Price", name: "price", widget: "string"}
+              - label: "Salads"
+                name: "Salads"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Price", name: "price", widget: "string"}
+              - label: "Paninis"
+                name: "Paninis"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Price", name: "price", widget: "string"}
+              - label: "Breakfast"
+                name: "Breakfast"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Price", name: "price", widget: "string"}
+          - label: "About"
+            name: "about"
+            widget: "text"
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Address", name: "address", widget: "string"}
+              - {label: "Hours", name: "hours", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Order Link", name: "order_link", widget: "string", default: "https://deli-delux.square.site"}

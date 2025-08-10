@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "title": "Build Your Own Sandwich",
+    "tagline": "Fresh ingredients, ready in 10 minutes.",
+    "cta_text": "Order Online",
+    "cta_link": "https://deli-delux.square.site",
+    "image": "images/hero.png"
+  },
+  "panels": [
+    {
+      "title": "Bacon Chicken Wrap",
+      "text": "Our best seller: tender chicken, crispy bacon, fresh greens.",
+      "cta_text": "Order Now",
+      "cta_link": "https://deli-delux.square.site",
+      "image": "images/hero.png"
+    },
+    {
+      "title": "Catering & Events",
+      "text": "Platters, salads and sandwich trays for any size group.",
+      "cta_text": "Get a Quote",
+      "cta_link": "#contact",
+      "image": "images/catering.png"
+    },
+    {
+      "title": "Who We Are",
+      "text": "A family\u2011owned deli committed to quality and service in Uptown Houston.",
+      "cta_text": "Learn More",
+      "cta_link": "#about",
+      "image": "images/hero.png"
+    }
+  ],
+  "menu": {
+    "Sandwiches": [
+      {
+        "name": "Breakfast Sandwich on Biscuit/Muffin",
+        "price": "$4.90"
+      },
+      {
+        "name": "Breakfast Sandwich on Croissant/Bagel",
+        "price": "$6.30"
+      },
+      {
+        "name": "BLT Sandwich",
+        "price": "$6.99"
+      }
+    ],
+    "Wraps": [
+      {
+        "name": "Deluxe Chicken Wrap",
+        "price": "$8.99"
+      },
+      {
+        "name": "Bacon Ranch Chicken Wrap",
+        "price": "$7.99"
+      },
+      {
+        "name": "Breakfast Wrap (The Works)",
+        "price": "$5.30"
+      }
+    ],
+    "Salads": [
+      {
+        "name": "Garden Salad",
+        "price": "$7.99"
+      },
+      {
+        "name": "Chef Salad",
+        "price": "$8.89"
+      }
+    ],
+    "Paninis": [
+      {
+        "name": "Cranberry Turkey Panini",
+        "price": "$8.89"
+      },
+      {
+        "name": "Panini Italiano",
+        "price": "$9.39"
+      }
+    ],
+    "Breakfast": [
+      {
+        "name": "Breakfast Pita",
+        "price": "$5.90"
+      },
+      {
+        "name": "Breakfast Wrap (2)",
+        "price": "$5.00"
+      }
+    ]
+  },
+  "about": "Deli Delux is your neighborhood deli crafting made\u2011to\u2011order sandwiches, wraps and salads using the freshest ingredients. We serve Uptown Houston with quick service and warm hospitality.",
+  "contact": {
+    "address": "4550 Post Oak Place Dr, Ste 144, Houston, TX 77027",
+    "hours": "Mon\u2013Fri 8am\u20133pm",
+    "email": "info@deli-delux.com",
+    "order_link": "https://deli-delux.square.site"
+  }
+}
